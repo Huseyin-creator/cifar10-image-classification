@@ -1,0 +1,6 @@
+file,true,pred,conf,correct,top3
+automobile_1.jpeg,automobile,automobile,0.9997904896736145,True,"otomobil %100.0, kedi %0.0, kamyon %0.0"
+bird_1.jpeg,bird,bird,0.9999029636383057,True,"kuş %100.0, kedi %0.0, at %0.0"
+cat_1.jpeg,cat,cat,0.9998871088027954,True,"kedi %100.0, köpek %0.0, kuş %0.0"
+dog_1.jpeg,dog,dog,0.9988833069801331,True,"köpek %99.9, kedi %0.1, kuş %0.0"
+truck_karavan.jpg,truck,truck,0.6045778393745422,True,"kamyon %60.5, kurbağa %19.2, otomobil %14.4"

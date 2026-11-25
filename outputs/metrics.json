@@ -1,0 +1,219 @@
+{
+  "device": "mps",
+  "hyperparameters": {
+    "epochs": 10,
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.05,
+    "val_size": 5000,
+    "seed": 42,
+    "workers": 4,
+    "input_size": 96,
+    "optimizer": "AdamW",
+    "scheduler": "OneCycleLR",
+    "loss": "CrossEntropyLoss"
+  },
+  "split": {
+    "train": 45000,
+    "val": 5000,
+    "test": 10000
+  },
+  "best_val_acc": 0.9518,
+  "best_epoch": 9,
+  "test_accuracy": 0.9468,
+  "test_precision_macro": 0.946761650442158,
+  "test_recall_macro": 0.9468,
+  "test_f1_macro": 0.946736138500858,
+  "per_class": {
+    "airplane": {
+      "precision": 0.954183266932271,
+      "recall": 0.958,
+      "f1-score": 0.9560878243512974,
+      "support": 1000.0
+    },
+    "automobile": {
+      "precision": 0.9759277833500501,
+      "recall": 0.973,
+      "f1-score": 0.9744616925388082,
+      "support": 1000.0
+    },
+    "bird": {
+      "precision": 0.9288537549407114,
+      "recall": 0.94,
+      "f1-score": 0.9343936381709742,
+      "support": 1000.0
+    },
+    "cat": {
+      "precision": 0.8957055214723927,
+      "recall": 0.876,
+      "f1-score": 0.8857431749241659,
+      "support": 1000.0
+    },
+    "deer": {
+      "precision": 0.943081452404318,
+      "recall": 0.961,
+      "f1-score": 0.9519564140663694,
+      "support": 1000.0
+    },
+    "dog": {
+      "precision": 0.9016064257028112,
+      "recall": 0.898,
+      "f1-score": 0.8997995991983968,
+      "support": 1000.0
+    },
+    "frog": {
+      "precision": 0.9556650246305419,
+      "recall": 0.97,
+      "f1-score": 0.9627791563275434,
+      "support": 1000.0
+    },
+    "horse": {
+      "precision": 0.9784615384615385,
+      "recall": 0.954,
+      "f1-score": 0.9660759493670886,
+      "support": 1000.0
+    },
+    "ship": {
+      "precision": 0.969061876247505,
+      "recall": 0.971,
+      "f1-score": 0.97002997002997,
+      "support": 1000.0
+    },
+    "truck": {
+      "precision": 0.9650698602794411,
+      "recall": 0.967,
+      "f1-score": 0.9660339660339661,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      958,
+      0,
+      11,
+      1,
+      2,
+      0,
+      5,
+      1,
+      18,
+      4
+    ],
+    [
+      1,
+      973,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      23
+    ],
+    [
+      8,
+      0,
+      940,
+      14,
+      14,
+      11,
+      12,
+      1,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      18,
+      876,
+      15,
+      62,
+      19,
+      4,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      10,
+      10,
+      961,
+      6,
+      4,
+      6,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      11,
+      58,
+      17,
+      898,
+      3,
+      9,
+      0,
+      3
+    ],
+    [
+      3,
+      0,
+      13,
+      11,
+      1,
+      0,
+      970,
+      0,
+      1,
+      1
+    ],
+    [
+      6,
+      0,
+      6,
+      6,
+      9,
+      18,
+      1,
+      954,
+      0,
+      0
+    ],
+    [
+      16,
+      5,
+      3,
+      0,
+      0,
+      1,
+      1,
+      0,
+      971,
+      3
+    ],
+    [
+      6,
+      19,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      6,
+      967
+    ]
+  ],
+  "training_time_sec": 881.2164607089944,
+  "avg_epoch_time_sec": 88.06703027919866,
+  "test_set_inference_time_sec": 29.573813666938804,
+  "test_set_throughput_img_per_sec": 338.13697863320255,
+  "inference_ms_per_image_batch1": {
+    "mps": 1.7297625000355765,
+    "cpu": 3.1905124988406897
+  }
+}

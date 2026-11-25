@@ -1,0 +1,33 @@
+Matplotlib is building the font cache; this may take a moment.
+Cihaz: mps
+Eğitim/Doğrulama/Test: 45000/5000/10000
+Epoch  1/10 | train loss 0.6502 acc 0.7802 | val loss 0.4056 acc 0.8600 | 116s  *kaydedildi
+Epoch  2/10 | train loss 0.4283 acc 0.8551 | val loss 0.4169 acc 0.8634 | 83s  *kaydedildi
+Epoch  3/10 | train loss 0.3395 acc 0.8861 | val loss 0.4322 acc 0.8546 | 87s
+Epoch  4/10 | train loss 0.2835 acc 0.9031 | val loss 0.2725 acc 0.9044 | 83s  *kaydedildi
+Epoch  5/10 | train loss 0.2299 acc 0.9212 | val loss 0.2691 acc 0.9130 | 83s  *kaydedildi
+Epoch  6/10 | train loss 0.1726 acc 0.9408 | val loss 0.2358 acc 0.9224 | 85s  *kaydedildi
+Epoch  7/10 | train loss 0.1236 acc 0.9573 | val loss 0.1915 acc 0.9384 | 85s  *kaydedildi
+Epoch  8/10 | train loss 0.0825 acc 0.9716 | val loss 0.1778 acc 0.9454 | 85s  *kaydedildi
+Epoch  9/10 | train loss 0.0551 acc 0.9811 | val loss 0.1585 acc 0.9518 | 86s  *kaydedildi
+Epoch 10/10 | train loss 0.0394 acc 0.9868 | val loss 0.1610 acc 0.9516 | 87s
+              precision    recall  f1-score   support
+
+    airplane     0.9542    0.9580    0.9561      1000
+  automobile     0.9759    0.9730    0.9745      1000
+        bird     0.9289    0.9400    0.9344      1000
+         cat     0.8957    0.8760    0.8857      1000
+        deer     0.9431    0.9610    0.9520      1000
+         dog     0.9016    0.8980    0.8998      1000
+        frog     0.9557    0.9700    0.9628      1000
+       horse     0.9785    0.9540    0.9661      1000
+        ship     0.9691    0.9710    0.9700      1000
+       truck     0.9651    0.9670    0.9660      1000
+
+    accuracy                         0.9468     10000
+   macro avg     0.9468    0.9468    0.9467     10000
+weighted avg     0.9468    0.9468    0.9467     10000
+
+
+Test Acc 0.9468 | P 0.9468 R 0.9468 F1 0.9467
+Eğitim süresi 14.7 dk | tahmin 1.73 ms (mps), 3.19 ms (cpu)
