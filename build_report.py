@@ -237,7 +237,7 @@ para("Eğitilen model Gradio ile web uygulamasına dönüştürülmüştür (app
 para("Gerçek fotoğraflar modele verilmeden önce eğitim verisiyle aynı dağılıma getirilir: EXIF yönü "
      "düzeltilir, ortadan kare kırpılır, 32×32'ye küçültülür, normalize edilir ve "
      f"{hp['input_size']}×{hp['input_size']}'ya büyütülür.")
-figure("outputs/app_screenshot.png", "Şekil 3. Gradio uygulaması ekran görüntüsü")
+figure("outputs/app_screenshot.png", "Şekil 3. Gradio uygulaması — telefonla çekilen köpek fotoğrafının sınıflandırılması")
 
 # ---------------- 8 ----------------
 doc.add_heading("8. Gerçek Görüntülerle Test ve Değerlendirme", 1)
